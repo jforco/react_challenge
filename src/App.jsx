@@ -80,7 +80,7 @@ class App extends Component {
             <Container className="mt-3">
                 <IdleTimer
                     ref={ref => { this.idleTimer = ref }}
-                    timeout={1000 * 5}
+                    timeout={1000 * 120}
                     onIdle={this.handleOnIdle}
                     debounce={250}
                 />
